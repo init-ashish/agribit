@@ -23,7 +23,7 @@ export default function ProductCard({ product, onOpen }: Props) {
         type="button"
         onClick={() => onOpen(product)}
         aria-label={t('product.viewDetails', { name })}
-        className="relative block aspect-square w-full overflow-hidden bg-leaf-100"
+        className="relative block aspect-[16/10] w-full min-[560px]:aspect-square overflow-hidden bg-leaf-100"
       >
         <img
           src={product.images[0]}
@@ -35,12 +35,12 @@ export default function ProductCard({ product, onOpen }: Props) {
           className={`size-full object-cover transition duration-500 hover:scale-105 ${product.inStock ? '' : 'grayscale'}`}
         />
         {product.badge && (
-          <span className="absolute left-2 top-2 rounded-full bg-mustard-500 px-2.5 py-1 text-xs font-extrabold text-leaf-900 shadow">
+          <span className="absolute left-3 top-3 max-w-[85%] rounded-full bg-mustard-500 px-2.5 py-1 text-xs font-extrabold text-leaf-900 shadow">
             {pick(product.badge)}
           </span>
         )}
       </button>
-      <div className="flex flex-1 flex-col gap-2.5 p-3">
+      <div className="flex flex-1 flex-col gap-3 p-4 min-[560px]:p-3">
         <h3 className="text-base font-extrabold leading-snug text-leaf-900 sm:text-lg">{name}</h3>
         <PurchasePanel product={product} />
       </div>

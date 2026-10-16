@@ -24,7 +24,7 @@ export default function SeasonFilter({ value, onChange }: Props) {
           type="button"
           aria-pressed={value === s}
           onClick={() => onChange(s)}
-          className={`min-h-11 rounded-xl px-1 text-sm font-bold transition ${
+          className={`min-h-11 rounded-xl px-1 text-xs font-bold leading-tight transition min-[380px]:text-sm ${
             value === s ? 'bg-mustard-500 text-leaf-900 shadow' : 'text-leaf-700'
           }`}
         >

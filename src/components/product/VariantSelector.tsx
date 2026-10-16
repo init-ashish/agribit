@@ -22,7 +22,7 @@ export default function VariantSelector({ variants, value, onChange, name }: Pro
             aria-checked={selected}
             aria-label={`${name} ${pick(v.label)}`}
             onClick={() => onChange(v.id)}
-            className={`min-h-11 rounded-xl border-2 px-2 text-sm font-bold leading-tight transition active:scale-95 ${
+            className={`min-h-11 rounded-xl border-2 px-2 text-[13px] min-[380px]:text-sm font-bold leading-tight transition active:scale-95 ${
               selected ? 'border-leaf-600 bg-leaf-50 text-leaf-700' : 'border-leaf-100 bg-white text-soil-700'
             }`}
           >

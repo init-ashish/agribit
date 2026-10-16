@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-leaf-100 bg-cream/80 pt-[env(safe-area-inset-top)] backdrop-blur-lg">
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-2 px-4" aria-label="Main">
-        <a href="#top" className="flex items-center gap-2 text-xl font-extrabold text-leaf-700">
+        <a href="#top" className="flex items-center gap-2 text-lg font-extrabold text-leaf-700 min-[380px]:text-xl">
           <span className="grid size-10 place-items-center rounded-xl bg-leaf-600 text-white">
             <Sprout className="size-6" aria-hidden="true" />
           </span>
