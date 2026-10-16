@@ -9,12 +9,12 @@ export const siteConfig = {
   taglineEn: 'Seeds & farming at your fingertips',
 
   /** International format, digits only, no "+" (e.g. 919876543210) */
-  whatsappNumber: '919999999999',
+  whatsappNumber: '919122350079',
   /** Shown in the footer and used by the Call button */
-  phone: '+91 99999 99999',
+  phone: '+91 91223 50079',
   storeAddress: {
-    hi: 'AgriBit बीज भंडार, मुख्य बाज़ार, लखनऊ, उत्तर प्रदेश',
-    en: 'AgriBit Beej Bhandar, Main Bazaar, Lucknow, Uttar Pradesh',
+    hi: 'जीरो माइल, SBI ATM के पास, भागलपुर, बिहार - 813210',
+    en: 'Zero Mile, Near SBI ATM, Bhagalpur, Bihar - 813210',
   },
 
   /** Orders are accepted only for these PIN codes. Replace with your delivery area. */

@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { ShoppingCart } from 'lucide-react'
 import type { Product } from '../../types'
 import { useCart } from '../../context/CartContext'
 import { useLanguage } from '../../i18n/LanguageContext'
@@ -12,23 +11,27 @@ import VariantSelector from './VariantSelector'
 /** Price + variant + quantity + Add to Cart. Shared by ProductCard and ProductModal. */
 export default function PurchasePanel({ product }: { product: Product }) {
   const { t, pick } = useLanguage()
-  const { addItem } = useCart()
+  const { items, addItem, dispatch } = useCart()
   const { showToast } = useToast()
   const [variantId, setVariantId] = useState(product.variants[0].id)
-  const [qty, setQty] = useState(1)
 
   const variant = product.variants.find((v) => v.id === variantId) ?? product.variants[0]
   const off = discountPercent(variant.price, variant.mrp)
   const name = pick(product.name)
 
-  const add = () => {
-    addItem(product.id, variant.id, qty)
-    showToast(t('product.added', { name }))
-    setQty(1)
+  const inCart = items.find((i) => i.productId === product.id && i.variantId === variant.id)?.qty ?? 0
+
+  const setQty = (qty: number) => {
+    if (qty > inCart) {
+      addItem(product.id, variant.id, qty - inCart)
+      showToast(t('product.added', { name }))
+    } else {
+      dispatch({ type: 'SET_QTY', productId: product.id, variantId: variant.id, qty })
+    }
   }
 
   return (
-    <div className="flex flex-col gap-2.5">
+    <div className="flex flex-1 flex-col gap-2.5">
       <div className="flex flex-wrap items-baseline gap-x-2">
         <span className="text-xl font-extrabold text-leaf-700">{formatINR(variant.price)}</span>
         {off > 0 && (
@@ -40,15 +43,9 @@ export default function PurchasePanel({ product }: { product: Product }) {
       </div>
       <VariantSelector name={name} variants={product.variants} value={variantId} onChange={setVariantId} />
       {product.inStock ? (
-        <>
-          <QuantityStepper value={qty} onChange={setQty} className="self-start" />
-          <Button full onClick={add}>
-            <ShoppingCart className="size-5" aria-hidden="true" />
-            {t('product.addToCart')}
-          </Button>
-        </>
+        <QuantityStepper value={inCart} onChange={setQty} min={0} className="mt-auto w-full justify-between" />
       ) : (
-        <Button full disabled variant="outline">{t('product.outOfStock')}</Button>
+        <Button full disabled variant="outline" className="mt-auto">{t('product.outOfStock')}</Button>
       )}
     </div>
   )

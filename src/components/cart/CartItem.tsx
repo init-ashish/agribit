@@ -29,7 +29,7 @@ export default function CartItem({ line }: { line: CartLine }) {
           </button>
         </div>
         <div className="flex items-center justify-between">
-          <QuantityStepper
+          <QuantityStepper compact
             value={qty}
             onChange={(q) => dispatch({ type: 'SET_QTY', productId: product.id, variantId: variant.id, qty: q })}
           />

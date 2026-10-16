@@ -14,12 +14,12 @@ export default function MobileBottomBar() {
           initial={{ y: 100 }}
           animate={{ y: 0 }}
           exit={{ y: 100 }}
-          className="fixed inset-x-0 bottom-0 z-30 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] md:hidden"
+          className="fixed inset-x-0 bottom-0 z-30 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))]"
         >
           <button
             type="button"
             onClick={openCart}
-            className="flex min-h-14 w-full items-center justify-between gap-3 rounded-2xl bg-leaf-600 px-4 font-bold text-white shadow-xl shadow-leaf-900/40 active:scale-[0.98]"
+            className="mx-auto flex min-h-14 w-full md:max-w-xl items-center justify-between gap-3 rounded-2xl bg-leaf-600 px-4 font-bold text-white shadow-xl shadow-leaf-900/40 active:scale-[0.98]"
           >
             <span className="flex items-center gap-2">
               <ShoppingBag className="size-5" aria-hidden="true" />
