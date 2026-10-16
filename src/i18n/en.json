@@ -118,6 +118,8 @@
   "footer.call": "Call us",
   "footer.whatsapp": "WhatsApp",
   "footer.address": "Store address",
+  "footer.seeLocation": "See location",
+  "footer.hideLocation": "Hide location",
   "footer.rights": "All rights reserved.",
 
   "wa.floating": "Chat on WhatsApp",

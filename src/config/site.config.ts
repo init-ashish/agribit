@@ -13,9 +13,14 @@ export const siteConfig = {
   /** Shown in the footer and used by the Call button */
   phone: '+91 91223 50079',
   storeAddress: {
-    hi: 'जीरो माइल, SBI ATM के पास, भागलपुर, बिहार - 813210',
-    en: 'Zero Mile, Near SBI ATM, Bhagalpur, Bihar - 813210',
+    hi: '723F+J8H, अमरनाथ झा लेन, शांति कॉलोनी, बरारी, भागलपुर, बिहार - 813210',
+    en: '723F+J8H, Amarnath Jha Ln, Shanti Colony, Barari, Bhagalpur, Bihar - 813210',
   },
+  /** Google Plus Code / address used for the map. Use a Maps share link in mapUrl for an exact pin. */
+  mapQuery: '723F+J8H, Amarnath Jha Ln, Shanti Colony, Barari, Bhagalpur, Bihar 813210',
+  mapUrl:
+    'https://www.google.com/maps/search/?api=1&query=' +
+    encodeURIComponent('723F+J8H, Amarnath Jha Ln, Shanti Colony, Barari, Bhagalpur, Bihar 813210'),
 
   /** Orders are accepted only for these PIN codes. Replace with your delivery area. */
   serviceablePincodes: [
