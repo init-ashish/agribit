@@ -1,4 +1,3 @@
-import { siteConfig } from '../config/site.config'
 import type { Address, LocalizedText } from '../types'
 
 export type AddressErrors = Partial<Record<keyof Address, LocalizedText>>
@@ -10,8 +9,6 @@ const required: LocalizedText = { en: 'This field is required', hi: 'यह ज�
 
 export const isValidMobile = (v: string): boolean => MOBILE_RE.test(v.trim())
 export const isValidPin = (v: string): boolean => PIN_RE.test(v.trim())
-export const isServiceablePin = (v: string): boolean =>
-  siteConfig.serviceablePincodes.includes(v.trim())
 
 const REQUIRED_FIELDS: (keyof Address)[] = [
   'name',
@@ -36,12 +33,6 @@ export function validateField(field: keyof Address, address: Address): Localized
   if (field === 'pincode') {
     if (!isValidPin(value)) {
       return { en: 'Enter a valid 6-digit PIN code', hi: 'सही 6 अंकों का पिन कोड डालें' }
-    }
-    if (!isServiceablePin(value)) {
-      return {
-        en: 'We do not deliver to this PIN code yet',
-        hi: 'इस पिन कोड पर अभी डिलीवरी नहीं है',
-      }
     }
   }
   return undefined

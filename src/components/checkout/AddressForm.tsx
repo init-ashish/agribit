@@ -1,8 +1,6 @@
-import { CheckCircle2, XCircle } from 'lucide-react'
 import { siteConfig } from '../../config/site.config'
 import { useLanguage } from '../../i18n/LanguageContext'
 import type { Address, PaymentMethod } from '../../types'
-import { isServiceablePin, isValidPin } from '../../utils/validation'
 import type { AddressErrors } from '../../utils/validation'
 
 interface Props {
@@ -49,10 +47,6 @@ export default function AddressForm({ address, errors, payment, onChange, onBlur
     )
   }
 
-  const pin = address.pincode.trim()
-  const pinKnown = isValidPin(pin)
-  const serviceable = pinKnown && isServiceablePin(pin)
-
   return (
     <div className="grid gap-3 p-4 sm:grid-cols-2">
       <div className="sm:col-span-2">{field('name', t('form.name'), { autoComplete: 'name' })}</div>
@@ -74,18 +68,7 @@ export default function AddressForm({ address, errors, payment, onChange, onBlur
           ))}
         </select>
       </div>
-      <div>
-        {field('pincode', t('form.pincode'), { inputMode: 'numeric', autoComplete: 'postal-code', maxLength: 6 })}
-        {pinKnown && (
-          <p
-            className={`mt-1 flex items-start gap-1 text-sm font-bold ${serviceable ? 'text-leaf-600' : 'text-red-600'}`}
-            role="status"
-          >
-            {serviceable ? <CheckCircle2 className="size-5 shrink-0" aria-hidden="true" /> : <XCircle className="size-5 shrink-0" aria-hidden="true" />}
-            {serviceable ? t('form.pinOk') : t('form.pinNo')}
-          </p>
-        )}
-      </div>
+      {field('pincode', t('form.pincode'), { inputMode: 'numeric', autoComplete: 'postal-code', maxLength: 6 })}
       <div className="sm:col-span-2">{field('landmark', t('form.landmark'))}</div>
 
       <fieldset className="sm:col-span-2">
