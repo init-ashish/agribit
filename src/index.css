@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", "Noto Sans Devanagari", system-ui, sans-serif;
+  /* Overridden at runtime from src/config/site.config.ts (theme) */
+  --color-leaf-50: #eef7ec;
+  --color-leaf-100: #d7ecd2;
+  --color-leaf-500: #3f9a45;
+  --color-leaf-600: #2f7d32;
+  --color-leaf-700: #25632a;
+  --color-leaf-900: #123618;
+  --color-mustard-400: #f0b43a;
+  --color-mustard-500: #e3a21a;
+  --color-mustard-600: #c4870f;
+  --color-soil-500: #8a5a32;
+  --color-soil-700: #5c3b1f;
+  --color-cream: #f6efe0;
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-bounce-once: bounce-once 0.5s ease;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-28px) rotate(18deg); }
+}
+@keyframes bounce-once {
+  0%, 100% { transform: scale(1); }
+  30% { transform: scale(1.35) translateY(-4px); }
+  60% { transform: scale(0.95); }
+}
+
+html { scroll-behavior: smooth; -webkit-tap-highlight-color: transparent; }
+body {
+  margin: 0;
+  background: var(--color-cream);
+  color: var(--color-soil-700);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+:lang(hi) body, body.lang-hi { font-family: "Noto Sans Devanagari", "Poppins", system-ui, sans-serif; }
+:focus-visible { outline: 3px solid var(--color-mustard-500); outline-offset: 2px; }
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
