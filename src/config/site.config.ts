@@ -34,8 +34,8 @@ export const siteConfig = {
   defaultLang: 'hi' as Lang,
 
   /** Hero video (put your file at public/videos/hero.mp4) and poster */
-  heroVideo: '/videos/hero.mp4',
-  heroPoster: '/images/hero-poster.jpg',
+  heroVideo: `${import.meta.env.BASE_URL}videos/hero.mp4`,
+  heroPoster: `${import.meta.env.BASE_URL}images/hero-poster.jpg`,
 
   /**
    * Future: set true after adding a Firebase Phone OTP step to

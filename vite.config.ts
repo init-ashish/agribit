@@ -6,6 +6,8 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Set BASE_PATH=/repo-name/ for GitHub Pages project sites (the workflow does this)
+  base: process.env.BASE_PATH ?? '/',
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] }),
@@ -20,7 +22,6 @@ export default defineConfig({
         theme_color: '#2f7d32',
         background_color: '#f6efe0',
         display: 'standalone',
-        start_url: '/',
         lang: 'hi',
         icons: [
           { src: 'pwa-icon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any' },
