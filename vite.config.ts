@@ -2,12 +2,14 @@ import react, { reactCompilerPreset } from '@vitejs/plugin-react'
 import babel from '@rolldown/plugin-babel'
 import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
-import { defineConfig } from 'vite'
+import { defineConfig, loadEnv } from 'vite'
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, process.cwd(), '')
+  return {
   // Set BASE_PATH=/repo-name/ for GitHub Pages project sites (the workflow does this)
-  base: process.env.BASE_PATH ?? '/',
+  base: process.env.BASE_PATH ?? env.BASE_PATH ?? '/',
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] }),
@@ -44,4 +46,5 @@ export default defineConfig({
       },
     }),
   ],
+}
 })
