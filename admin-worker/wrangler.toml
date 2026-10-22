@@ -1,0 +1,13 @@
+name = "agribit-admin"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+GITHUB_REPO = "init-ashish/agribit"
+GITHUB_BRANCH = "main"
+ALLOWED_ORIGIN = "https://init-ashish.github.io"
+
+# Secrets (set these with `wrangler secret put <NAME>`, never commit them):
+#   GITHUB_TOKEN    — fine-grained PAT, Contents: Read and write, scoped to this repo only
+#   ADMIN_PASSWORD  — the password you'll type into the /admin page

@@ -1,0 +1,878 @@
+[
+  {
+    "id": "wheat",
+    "category": "cereals",
+    "name": {
+      "en": "Wheat Seed HD-2967",
+      "hi": "गेहूं बीज HD-2967"
+    },
+    "description": {
+      "en": "High-yielding, rust-resistant wheat variety suited to timely sowing in the plains. Certified, treated seed.",
+      "hi": "अधिक पैदावार देने वाली, रतुआ रोग प्रतिरोधी गेहूं किस्म। समय पर बुवाई के लिए उपयुक्त। प्रमाणित, उपचारित बीज।"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=800&q=70&auto=format&fit=crop"
+    ],
+    "season": "rabi",
+    "badge": {
+      "en": "Best Seller",
+      "hi": "सबसे ज़्यादा बिकने वाला"
+    },
+    "variants": [
+      {
+        "id": "wheat-250g",
+        "label": {
+          "en": "250 g Packet",
+          "hi": "250 ग्राम पैकेट"
+        },
+        "weightKg": 0.25,
+        "price": 22,
+        "mrp": 28
+      },
+      {
+        "id": "wheat-1kg",
+        "label": {
+          "en": "1 kg Packet",
+          "hi": "1 किलो पैकेट"
+        },
+        "weightKg": 1,
+        "price": 58,
+        "mrp": 70
+      },
+      {
+        "id": "wheat-5kg",
+        "label": {
+          "en": "5 kg Packet",
+          "hi": "5 किलो पैकेट"
+        },
+        "weightKg": 5,
+        "price": 275,
+        "mrp": 330
+      },
+      {
+        "id": "wheat-bora40",
+        "label": {
+          "en": "40 kg Bora (sack)",
+          "hi": "40 किलो बोरा"
+        },
+        "weightKg": 40,
+        "price": 2150,
+        "mrp": 2600
+      }
+    ],
+    "inStock": true,
+    "sowingInfo": {
+      "seedRatePerAcre": {
+        "en": "40–50 kg per acre",
+        "hi": "40–50 किलो प्रति एकड़"
+      },
+      "duration": {
+        "en": "135–145 days",
+        "hi": "135–145 दिन"
+      }
+    }
+  },
+  {
+    "id": "paddy",
+    "category": "cereals",
+    "name": {
+      "en": "Paddy Seed PB-1509 (Basmati)",
+      "hi": "धान बीज PB-1509 (बासमती)"
+    },
+    "description": {
+      "en": "Early-maturing aromatic basmati paddy with long slender grains. Saves water and fits a wheat rotation.",
+      "hi": "जल्दी पकने वाली खुशबूदार बासमती धान, लंबे पतले दाने। पानी की बचत और गेहूं की बुवाई समय पर।"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&q=70&auto=format&fit=crop"
+    ],
+    "season": "kharif",
+    "badge": {
+      "en": "Certified",
+      "hi": "प्रमाणित"
+    },
+    "variants": [
+      {
+        "id": "paddy-250g",
+        "label": {
+          "en": "250 g Packet",
+          "hi": "250 ग्राम पैकेट"
+        },
+        "weightKg": 0.25,
+        "price": 28,
+        "mrp": 35
+      },
+      {
+        "id": "paddy-1kg",
+        "label": {
+          "en": "1 kg Packet",
+          "hi": "1 किलो पैकेट"
+        },
+        "weightKg": 1,
+        "price": 72,
+        "mrp": 90
+      },
+      {
+        "id": "paddy-5kg",
+        "label": {
+          "en": "5 kg Packet",
+          "hi": "5 किलो पैकेट"
+        },
+        "weightKg": 5,
+        "price": 340,
+        "mrp": 420
+      },
+      {
+        "id": "paddy-bora25",
+        "label": {
+          "en": "25 kg Bora (sack)",
+          "hi": "25 किलो बोरा"
+        },
+        "weightKg": 25,
+        "price": 1650,
+        "mrp": 2000
+      }
+    ],
+    "inStock": true,
+    "sowingInfo": {
+      "seedRatePerAcre": {
+        "en": "8–10 kg per acre (nursery)",
+        "hi": "8–10 किलो प्रति एकड़ (नर्सरी)"
+      },
+      "duration": {
+        "en": "120–125 days",
+        "hi": "120–125 दिन"
+      }
+    }
+  },
+  {
+    "id": "maize",
+    "category": "cereals",
+    "name": {
+      "en": "Hybrid Maize Seed",
+      "hi": "हाइब्रिड मक्का बीज"
+    },
+    "description": {
+      "en": "Vigorous hybrid maize with strong stalks and bold, full cobs. Performs well in kharif and spring.",
+      "hi": "मज़बूत तने और बड़े भुट्टों वाला हाइब्रिड मक्का। खरीफ और बसंत दोनों में अच्छी पैदावार।"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=800&q=70&auto=format&fit=crop"
+    ],
+    "season": "kharif",
+    "variants": [
+      {
+        "id": "maize-250g",
+        "label": {
+          "en": "250 g Packet",
+          "hi": "250 ग्राम पैकेट"
+        },
+        "weightKg": 0.25,
+        "price": 85,
+        "mrp": 100
+      },
+      {
+        "id": "maize-1kg",
+        "label": {
+          "en": "1 kg Packet",
+          "hi": "1 किलो पैकेट"
+        },
+        "weightKg": 1,
+        "price": 320,
+        "mrp": 380
+      },
+      {
+        "id": "maize-5kg",
+        "label": {
+          "en": "5 kg Packet",
+          "hi": "5 किलो पैकेट"
+        },
+        "weightKg": 5,
+        "price": 1550,
+        "mrp": 1800
+      },
+      {
+        "id": "maize-bora25",
+        "label": {
+          "en": "25 kg Bora (sack)",
+          "hi": "25 किलो बोरा"
+        },
+        "weightKg": 25,
+        "price": 7400,
+        "mrp": 8500
+      }
+    ],
+    "inStock": true,
+    "sowingInfo": {
+      "seedRatePerAcre": {
+        "en": "8 kg per acre",
+        "hi": "8 किलो प्रति एकड़"
+      },
+      "duration": {
+        "en": "90–100 days",
+        "hi": "90–100 दिन"
+      }
+    }
+  },
+  {
+    "id": "mustard",
+    "category": "oilseeds",
+    "name": {
+      "en": "Mustard Seed Pusa Bold",
+      "hi": "सरसों बीज पूसा बोल्ड"
+    },
+    "description": {
+      "en": "Bold-seeded mustard with high oil content and good tolerance to cold. Ideal for rabi sowing.",
+      "hi": "मोटे दाने वाली सरसों, तेल की मात्रा अधिक और ठंड सहने की क्षमता अच्छी। रबी बुवाई के लिए उत्तम।"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&q=70&auto=format&fit=crop"
+    ],
+    "season": "rabi",
+    "variants": [
+      {
+        "id": "mustard-250g",
+        "label": {
+          "en": "250 g Packet",
+          "hi": "250 ग्राम पैकेट"
+        },
+        "weightKg": 0.25,
+        "price": 45,
+        "mrp": 55
+      },
+      {
+        "id": "mustard-1kg",
+        "label": {
+          "en": "1 kg Packet",
+          "hi": "1 किलो पैकेट"
+        },
+        "weightKg": 1,
+        "price": 150,
+        "mrp": 180
+      },
+      {
+        "id": "mustard-5kg",
+        "label": {
+          "en": "5 kg Packet",
+          "hi": "5 किलो पैकेट"
+        },
+        "weightKg": 5,
+        "price": 720,
+        "mrp": 850
+      },
+      {
+        "id": "mustard-bora25",
+        "label": {
+          "en": "25 kg Bora (sack)",
+          "hi": "25 किलो बोरा"
+        },
+        "weightKg": 25,
+        "price": 3400,
+        "mrp": 4000
+      }
+    ],
+    "inStock": true,
+    "sowingInfo": {
+      "seedRatePerAcre": {
+        "en": "1.5–2 kg per acre",
+        "hi": "1.5–2 किलो प्रति एकड़"
+      },
+      "duration": {
+        "en": "120–140 days",
+        "hi": "120–140 दिन"
+      }
+    }
+  },
+  {
+    "id": "chana",
+    "category": "pulses",
+    "name": {
+      "en": "Chana (Gram) Seed JG-16",
+      "hi": "चना बीज JG-16"
+    },
+    "description": {
+      "en": "Wilt-tolerant desi chana with bold golden grains. Needs little irrigation and improves soil fertility.",
+      "hi": "उकठा रोग सहने वाला देसी चना, सुनहरे मोटे दाने। कम सिंचाई में तैयार, मिट्टी की उर्वरता बढ़ाता है।"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=70&auto=format&fit=crop"
+    ],
+    "season": "rabi",
+    "badge": {
+      "en": "Low water",
+      "hi": "कम पानी"
+    },
+    "variants": [
+      {
+        "id": "chana-250g",
+        "label": {
+          "en": "250 g Packet",
+          "hi": "250 ग्राम पैकेट"
+        },
+        "weightKg": 0.25,
+        "price": 35,
+        "mrp": 45
+      },
+      {
+        "id": "chana-1kg",
+        "label": {
+          "en": "1 kg Packet",
+          "hi": "1 किलो पैकेट"
+        },
+        "weightKg": 1,
+        "price": 110,
+        "mrp": 135
+      },
+      {
+        "id": "chana-5kg",
+        "label": {
+          "en": "5 kg Packet",
+          "hi": "5 किलो पैकेट"
+        },
+        "weightKg": 5,
+        "price": 520,
+        "mrp": 620
+      },
+      {
+        "id": "chana-bora30",
+        "label": {
+          "en": "30 kg Bora (sack)",
+          "hi": "30 किलो बोरा"
+        },
+        "weightKg": 30,
+        "price": 3000,
+        "mrp": 3600
+      }
+    ],
+    "inStock": true,
+    "sowingInfo": {
+      "seedRatePerAcre": {
+        "en": "30–35 kg per acre",
+        "hi": "30–35 किलो प्रति एकड़"
+      },
+      "duration": {
+        "en": "110–120 days",
+        "hi": "110–120 दिन"
+      }
+    }
+  },
+  {
+    "id": "arhar",
+    "category": "pulses",
+    "name": {
+      "en": "Arhar (Tur) Seed",
+      "hi": "अरहर बीज"
+    },
+    "description": {
+      "en": "Medium-duration arhar with good pod setting. Works well as an intercrop with maize or sorghum.",
+      "hi": "मध्यम अवधि की अरहर, फलियाँ अच्छी लगती हैं। मक्का या ज्वार के साथ अंतर-फसल के लिए उपयुक्त।"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&q=70&auto=format&fit=crop"
+    ],
+    "season": "kharif",
+    "variants": [
+      {
+        "id": "arhar-250g",
+        "label": {
+          "en": "250 g Packet",
+          "hi": "250 ग्राम पैकेट"
+        },
+        "weightKg": 0.25,
+        "price": 60,
+        "mrp": 75
+      },
+      {
+        "id": "arhar-1kg",
+        "label": {
+          "en": "1 kg Packet",
+          "hi": "1 किलो पैकेट"
+        },
+        "weightKg": 1,
+        "price": 190,
+        "mrp": 230
+      },
+      {
+        "id": "arhar-5kg",
+        "label": {
+          "en": "5 kg Packet",
+          "hi": "5 किलो पैकेट"
+        },
+        "weightKg": 5,
+        "price": 900,
+        "mrp": 1080
+      },
+      {
+        "id": "arhar-bora25",
+        "label": {
+          "en": "25 kg Bora (sack)",
+          "hi": "25 किलो बोरा"
+        },
+        "weightKg": 25,
+        "price": 4300,
+        "mrp": 5200
+      }
+    ],
+    "inStock": true,
+    "sowingInfo": {
+      "seedRatePerAcre": {
+        "en": "6–8 kg per acre",
+        "hi": "6–8 किलो प्रति एकड़"
+      },
+      "duration": {
+        "en": "150–180 days",
+        "hi": "150–180 दिन"
+      }
+    }
+  },
+  {
+    "id": "moong",
+    "category": "pulses",
+    "name": {
+      "en": "Moong Seed (Summer)",
+      "hi": "मूंग बीज (ग्रीष्मकालीन)"
+    },
+    "description": {
+      "en": "Short-duration moong that fits between wheat and paddy. Yellow-mosaic tolerant.",
+      "hi": "कम समय में तैयार होने वाली मूंग, गेहूं और धान के बीच की खाली अवधि के लिए। पीला मोज़ेक सहनशील।"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=70&auto=format&fit=crop"
+    ],
+    "season": "zaid",
+    "badge": {
+      "en": "Only 65 days",
+      "hi": "सिर्फ़ 65 दिन"
+    },
+    "variants": [
+      {
+        "id": "moong-250g",
+        "label": {
+          "en": "250 g Packet",
+          "hi": "250 ग्राम पैकेट"
+        },
+        "weightKg": 0.25,
+        "price": 65,
+        "mrp": 80
+      },
+      {
+        "id": "moong-1kg",
+        "label": {
+          "en": "1 kg Packet",
+          "hi": "1 किलो पैकेट"
+        },
+        "weightKg": 1,
+        "price": 210,
+        "mrp": 250
+      },
+      {
+        "id": "moong-5kg",
+        "label": {
+          "en": "5 kg Packet",
+          "hi": "5 किलो पैकेट"
+        },
+        "weightKg": 5,
+        "price": 1000,
+        "mrp": 1200
+      },
+      {
+        "id": "moong-bora25",
+        "label": {
+          "en": "25 kg Bora (sack)",
+          "hi": "25 किलो बोरा"
+        },
+        "weightKg": 25,
+        "price": 4800,
+        "mrp": 5700
+      }
+    ],
+    "inStock": true,
+    "sowingInfo": {
+      "seedRatePerAcre": {
+        "en": "8–10 kg per acre",
+        "hi": "8–10 किलो प्रति एकड़"
+      },
+      "duration": {
+        "en": "60–65 days",
+        "hi": "60–65 दिन"
+      }
+    }
+  },
+  {
+    "id": "tomato",
+    "category": "vegetables",
+    "name": {
+      "en": "Tomato Seed (Pusa Ruby)",
+      "hi": "टमाटर बीज (पूसा रूबी)"
+    },
+    "description": {
+      "en": "Firm, deep-red fruits with long shelf life. Heavy bearer, good for local market and mandi.",
+      "hi": "ठोस, गहरे लाल फल, लंबे समय तक टिकाऊ। भरपूर फल, स्थानीय बाज़ार और मंडी के लिए बढ़िया।"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=70&auto=format&fit=crop"
+    ],
+    "season": "rabi",
+    "badge": {
+      "en": "High yield",
+      "hi": "ज़्यादा पैदावार"
+    },
+    "variants": [
+      {
+        "id": "tomato-250g",
+        "label": {
+          "en": "250 g Packet",
+          "hi": "250 ग्राम पैकेट"
+        },
+        "weightKg": 0.25,
+        "price": 800,
+        "mrp": 950
+      },
+      {
+        "id": "tomato-1kg",
+        "label": {
+          "en": "1 kg Packet",
+          "hi": "1 किलो पैकेट"
+        },
+        "weightKg": 1,
+        "price": 2999,
+        "mrp": 3499
+      },
+      {
+        "id": "tomato-5kg",
+        "label": {
+          "en": "5 kg Packet",
+          "hi": "5 किलो पैकेट"
+        },
+        "weightKg": 5,
+        "price": 14000,
+        "mrp": 16500
+      },
+      {
+        "id": "tomato-bora25",
+        "label": {
+          "en": "25 kg Bora (sack)",
+          "hi": "25 किलो बोरा"
+        },
+        "weightKg": 25,
+        "price": 65000,
+        "mrp": 76000
+      }
+    ],
+    "inStock": true,
+    "sowingInfo": {
+      "seedRatePerAcre": {
+        "en": "100–150 g per acre",
+        "hi": "100–150 ग्राम प्रति एकड़"
+      },
+      "duration": {
+        "en": "110–130 days",
+        "hi": "110–130 दिन"
+      }
+    }
+  },
+  {
+    "id": "chilli",
+    "category": "vegetables",
+    "name": {
+      "en": "Green Chilli Seed (Pusa Jwala)",
+      "hi": "हरी मिर्च बीज (पूसा ज्वाला)"
+    },
+    "description": {
+      "en": "Pungent, slender green chilli with continuous picking over many weeks.",
+      "hi": "तीखी, पतली हरी मिर्च, कई हफ़्तों तक लगातार तुड़ाई।"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1583663848850-46af132dc08e?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=70&auto=format&fit=crop"
+    ],
+    "season": "kharif",
+    "variants": [
+      {
+        "id": "chilli-250g",
+        "label": {
+          "en": "250 g Packet",
+          "hi": "250 ग्राम पैकेट"
+        },
+        "weightKg": 0.25,
+        "price": 900,
+        "mrp": 1050
+      },
+      {
+        "id": "chilli-1kg",
+        "label": {
+          "en": "1 kg Packet",
+          "hi": "1 किलो पैकेट"
+        },
+        "weightKg": 1,
+        "price": 3400,
+        "mrp": 3999
+      },
+      {
+        "id": "chilli-5kg",
+        "label": {
+          "en": "5 kg Packet",
+          "hi": "5 किलो पैकेट"
+        },
+        "weightKg": 5,
+        "price": 16000,
+        "mrp": 18900
+      },
+      {
+        "id": "chilli-bora25",
+        "label": {
+          "en": "25 kg Bora (sack)",
+          "hi": "25 किलो बोरा"
+        },
+        "weightKg": 25,
+        "price": 75000,
+        "mrp": 88000
+      }
+    ],
+    "inStock": true,
+    "sowingInfo": {
+      "seedRatePerAcre": {
+        "en": "150–200 g per acre",
+        "hi": "150–200 ग्राम प्रति एकड़"
+      },
+      "duration": {
+        "en": "150–180 days",
+        "hi": "150–180 दिन"
+      }
+    }
+  },
+  {
+    "id": "brinjal",
+    "category": "vegetables",
+    "name": {
+      "en": "Brinjal Seed (Pusa Purple Long)",
+      "hi": "बैंगन बीज (पूसा पर्पल लॉन्ग)"
+    },
+    "description": {
+      "en": "Glossy long purple brinjal, tender with few seeds. Tolerant to fruit and shoot borer.",
+      "hi": "चमकदार लंबा बैंगनी बैंगन, कोमल और कम बीज वाला। फल व तना छेदक के प्रति सहनशील।"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=70&auto=format&fit=crop"
+    ],
+    "season": "kharif",
+    "variants": [
+      {
+        "id": "brinjal-250g",
+        "label": {
+          "en": "250 g Packet",
+          "hi": "250 ग्राम पैकेट"
+        },
+        "weightKg": 0.25,
+        "price": 1050,
+        "mrp": 1250
+      },
+      {
+        "id": "brinjal-1kg",
+        "label": {
+          "en": "1 kg Packet",
+          "hi": "1 किलो पैकेट"
+        },
+        "weightKg": 1,
+        "price": 3900,
+        "mrp": 4600
+      },
+      {
+        "id": "brinjal-5kg",
+        "label": {
+          "en": "5 kg Packet",
+          "hi": "5 किलो पैकेट"
+        },
+        "weightKg": 5,
+        "price": 18500,
+        "mrp": 21500
+      },
+      {
+        "id": "brinjal-bora25",
+        "label": {
+          "en": "25 kg Bora (sack)",
+          "hi": "25 किलो बोरा"
+        },
+        "weightKg": 25,
+        "price": 88000,
+        "mrp": 102000
+      }
+    ],
+    "inStock": true,
+    "sowingInfo": {
+      "seedRatePerAcre": {
+        "en": "200–250 g per acre",
+        "hi": "200–250 ग्राम प्रति एकड़"
+      },
+      "duration": {
+        "en": "120–150 days",
+        "hi": "120–150 दिन"
+      }
+    }
+  },
+  {
+    "id": "bhindi",
+    "category": "vegetables",
+    "name": {
+      "en": "Bhindi (Okra) Seed",
+      "hi": "भिंडी बीज"
+    },
+    "description": {
+      "en": "Dark green, tender okra, resistant to yellow vein mosaic. Great summer income crop.",
+      "hi": "गहरी हरी, कोमल भिंडी, पीली नस मोज़ेक रोग प्रतिरोधी। गर्मी की बढ़िया कमाई वाली फसल।"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=800&q=70&auto=format&fit=crop"
+    ],
+    "season": "zaid",
+    "badge": {
+      "en": "Summer special",
+      "hi": "गर्मी की खास"
+    },
+    "variants": [
+      {
+        "id": "bhindi-250g",
+        "label": {
+          "en": "250 g Packet",
+          "hi": "250 ग्राम पैकेट"
+        },
+        "weightKg": 0.25,
+        "price": 190,
+        "mrp": 230
+      },
+      {
+        "id": "bhindi-1kg",
+        "label": {
+          "en": "1 kg Packet",
+          "hi": "1 किलो पैकेट"
+        },
+        "weightKg": 1,
+        "price": 680,
+        "mrp": 800
+      },
+      {
+        "id": "bhindi-5kg",
+        "label": {
+          "en": "5 kg Packet",
+          "hi": "5 किलो पैकेट"
+        },
+        "weightKg": 5,
+        "price": 3200,
+        "mrp": 3800
+      },
+      {
+        "id": "bhindi-bora25",
+        "label": {
+          "en": "25 kg Bora (sack)",
+          "hi": "25 किलो बोरा"
+        },
+        "weightKg": 25,
+        "price": 14500,
+        "mrp": 17000
+      }
+    ],
+    "inStock": true,
+    "sowingInfo": {
+      "seedRatePerAcre": {
+        "en": "4–5 kg per acre",
+        "hi": "4–5 किलो प्रति एकड़"
+      },
+      "duration": {
+        "en": "60–70 days to first picking",
+        "hi": "पहली तुड़ाई 60–70 दिन"
+      }
+    }
+  },
+  {
+    "id": "cauliflower",
+    "category": "vegetables",
+    "name": {
+      "en": "Cauliflower Seed (Snowball)",
+      "hi": "फूलगोभी बीज (स्नोबॉल)"
+    },
+    "description": {
+      "en": "Compact white curds with good cover leaves. Uniform heads for a better mandi price.",
+      "hi": "ठोस सफ़ेद फूल, पत्तियों से ढके हुए। एक जैसे आकार के फूल, मंडी में बेहतर दाम।"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&q=70&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=800&q=70&auto=format&fit=crop"
+    ],
+    "season": "rabi",
+    "variants": [
+      {
+        "id": "cauliflower-250g",
+        "label": {
+          "en": "250 g Packet",
+          "hi": "250 ग्राम पैकेट"
+        },
+        "weightKg": 0.25,
+        "price": 1300,
+        "mrp": 1550
+      },
+      {
+        "id": "cauliflower-1kg",
+        "label": {
+          "en": "1 kg Packet",
+          "hi": "1 किलो पैकेट"
+        },
+        "weightKg": 1,
+        "price": 4900,
+        "mrp": 5800
+      },
+      {
+        "id": "cauliflower-5kg",
+        "label": {
+          "en": "5 kg Packet",
+          "hi": "5 किलो पैकेट"
+        },
+        "weightKg": 5,
+        "price": 23500,
+        "mrp": 27000
+      },
+      {
+        "id": "cauliflower-bora25",
+        "label": {
+          "en": "25 kg Bora (sack)",
+          "hi": "25 किलो बोरा"
+        },
+        "weightKg": 25,
+        "price": 112000,
+        "mrp": 130000
+      }
+    ],
+    "inStock": false,
+    "sowingInfo": {
+      "seedRatePerAcre": {
+        "en": "200–250 g per acre",
+        "hi": "200–250 ग्राम प्रति एकड़"
+      },
+      "duration": {
+        "en": "90–110 days",
+        "hi": "90–110 दिन"
+      }
+    }
+  }
+]
